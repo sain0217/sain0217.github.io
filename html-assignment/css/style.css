@@ -1,0 +1,26 @@
+/* this is a css comment */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    background-color:darkolivegreen
+}
+
+article h2,h3,h4,h5{
+    background-color:cadetblue
+}
+
+h1{
+    color: bisque;
+}
+
+ul{
+    .background-color:nth-child(even){
+        background-color: darkgreen;
+}
+}
+
+.box-shadow{
+    box-shadow:0 2px 1px black
+}
