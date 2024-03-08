@@ -1,0 +1,78 @@
+/* this is a css comment */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+    background-position: 55% 55%;
+    background-size: cover;
+    margin: 0;
+    
+}
+
+.wrapper {
+    width: 904px;
+    margin: auto;
+    background-color:rgb(213, 231, 241)
+}
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px;
+    width: 280px;  
+}
+
+h2{
+    font-size: 1.9rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+main {
+    padding: 10px;
+}
+
+article img {
+width: 25%;
+height: auto;
+float: left;
+position: relative;
+margin: 2%;
+margin-left: 1%;
+}
+
+p{
+    font-size: 0.6rem;;
+}
+
+h3{
+    font-size: 1.9rem;
+}
+
+form fieldset{
+    border: 2px solid black;
+}
+
+form fieldset legend{
+    display: none;
+}
+header img {
+    width: 904px;
+    height: auto;
+}
+
+
+form textarea{
+    font-size: 10px;
+}
+
+
+  
+
+
+  
