@@ -37,6 +37,11 @@ main {
     padding: 10px;
 }
 
+.container {
+    width: 900px;
+    margin:0 auto
+}
+
 article img {
 width: 25%;
 height: auto;
