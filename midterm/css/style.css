@@ -15,7 +15,7 @@ body {
 }
 h1 {
     position: absolute;
-    top: 10%;
+    top: 14%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -72,9 +72,7 @@ header img {
 }
 
 
-form textarea{
-    font-size: 10px;
-}
+
 
 
   
