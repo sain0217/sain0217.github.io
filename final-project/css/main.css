@@ -1,0 +1,130 @@
+/* CSS Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap);
+
+:root {
+    --background: rgba(199, 140, 6)
+}
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation style*/
+header {
+    background: var(--background);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    text-align: left;
+    top:100%;
+    left: 0;
+    background: var(--background);
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+.nav-toggle:checked ~ nav {
+    display: block;
+}
+
+.cards {
+    background: #ffe6ac;
+    width: 350px;
+    padding:3rem;
+}
+.card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+/* Container styles */
+.wrapper {
+    max-width: 100%;
+}
+
+/*Header styles*/
+
+/* Main content styles */
+.main-content {
+    display:grid;
+}
+
+.containers {
+    width:80%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    color: #222;
+    font-size: 17px;
+    display: block;
+    margin-top: 12px;
+    margin-bottom:5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+}
+button {
+    font-size: 21px;
+    background-color: #000;
+    color: #c78c06;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.Team {
+    justify-content: center;
+}
+
+.member {
+    background:#ffe6ac;
+    width: 220px;
+    height:400px;
+    margin: 10px;
+}
+
+
+h3 {
+    justify-content: center;
+}
+
+table, th, td {
+    width: 2000px;
+    margin:auto;
+    font-size: 30px;
+    padding: 1px;
+
+}
+
